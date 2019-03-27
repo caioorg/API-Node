@@ -8,7 +8,7 @@ This is a straightforward boilerplate for building REST APIs with ES6 and Expres
 - CORS support via [cors](https://github.com/troygoode/node-cors)
 - Body Parsing via [body-parser](https://github.com/expressjs/body-parser)
 - PM2 Monitoring - Production via [pm2](http://pm2.keymetrics.io/)
-- NodeRestFul via [node-restful](https://www.npmjs.com/package/node-restful)
+- NodeRestful via [node-restful](https://www.npmjs.com/package/node-restful)
 
 
 Getting Started
