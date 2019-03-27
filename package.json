@@ -2,14 +2,20 @@
   "name": "api-node",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "dependencies": {},
-  "devDependencies": {
+  "main": "src/loader.js",
+  "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "node-restful": "^0.2.6",
+    "pm2": "^3.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "build": "pm2 start src/loader.js --name api-node"
   },
   "repository": {
     "type": "git",
