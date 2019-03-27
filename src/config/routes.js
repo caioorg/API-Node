@@ -7,5 +7,5 @@ module.exports = (server) => {
 
     //Map Routers
     const ApiNodeService = require('../service/apiNode/apiNodeService')
-    ApiNodeService.register(router, '/api/v1')
+    ApiNodeService.register(router, '/v1')
 }
